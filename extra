@@ -1,0 +1,75 @@
+https://code.visualstudio.com/download (install)
+https://github.com/ (create account)
+https://git-scm.com/downloads (install)
+https://nodejs.org/en/ (install)
+
+//extension
+>chrome (https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+
+> vscode
+githistory
+gitlens
+TabNine
+eslint
+vscode-icons
+spellCheck
+
+
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJS-Mongo-Express)
+Third Party Api (Weather Api)
+Redis  > 6379
+redisWithMongo
+ImageUpload
+Node-Es6(.babel)
+MongoDb Basic >27017  (local/cloud)
+Api with NodeJS(Rest)>1
+Swagger
+Testing
+DashBoard(Crud)
+Github
+Login/Logout(JWT)
+Oauth(with github)
+--Deployment of app---
+Heroku
+Pm2
+Docker
+Nginx
+Oauth(with google)
+GraphQl API
+NodeJs with postgres
+Paytm-Payment
+Email With Node(sendgird)(https://app.sendgrid.com/)
+Chatapp
+TelegramChat
+FIREBASE
+--------NOT---------
+React/Angular
+Html/css/jquery
+
+////////////////////////////////
+Node > async single threaded non blocking I/O
+
+engine v8(chrome)
+
+open source
+> any body can contribute to development
+https://www.npmjs.com/
+
+npm 
+> node package manager
+
+JSON
+> JavaScript Object Notation
+
+[
+{
+    "name":"John",
+    "class":"UI"
+},
+{
+    "name":"Nikita",
+    "class":"React"
+}
+]

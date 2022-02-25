@@ -73,3 +73,29 @@ JSON
     "class":"React"
 }
 ]
+
+/////package.json//////
+meta data > name,version,description
+packages
+script > start test
+
+/////Step to generate package.json/////
+**Node must be installed
+> go inside the folder using cmd/terminal
+> npm init
+> answer all questions
+> type "yes"
+
+/////Step to install package /////
+**Node must be installed
+> go inside the folder using cmd/terminal
+> npm i packagename
+
+////
+dev dependencies
+/////
+
+**Node must be installed
+> go inside the folder using cmd/terminal
+> npm i packagename --save-dev
+

@@ -17,6 +17,7 @@ spellCheck
 
 NPM
 Basic NodeJS(in built)(Os,file,http)
+////////////////////
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
 Redis  > 6379
@@ -99,3 +100,17 @@ dev dependencies
 > go inside the folder using cmd/terminal
 > npm i packagename --save-dev
 
+// global dependencies
+> install in laptop irrespective of any app
+> once installed can be used for all the applications
+> package that help to run (need before applications start)
+
+// windows
+> open cmd as administrator
+> npm i -g packagename
+
+//mac/linux
+> open terminal
+> sudo npm i -g packagename
+
+> npm i -g nodemon

@@ -1,0 +1,12 @@
+{
+  "name": "inbuiltapp",
+  "version": "1.0.0",
+  "description": "this is node app",
+  "main": "",
+  "scripts": {
+    "start": "node staticapi.js",
+    "dev":"nodemon staticapi.js"
+  },
+  "author": "nareshit",
+  "license": "ISC"
+}

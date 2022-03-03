@@ -114,3 +114,9 @@ dev dependencies
 > sudo npm i -g packagename
 
 > npm i -g nodemon
+
+///////////
+get > read
+post > insert
+put > update
+delete > remove

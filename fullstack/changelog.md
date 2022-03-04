@@ -1,3 +1,7 @@
+#03/03/2022 Aakash TicketNumber-0003  v1.0.3
+> Separate routes in routing file
+> Added Ejs to the index
+
 #03/03/2022 Aakash TicketNumber-0002  v1.0.2
 > Added Routes in express
 > Manage Logs using Morgan

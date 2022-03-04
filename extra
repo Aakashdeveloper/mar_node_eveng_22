@@ -120,3 +120,5 @@ get > read
 post > insert
 put > update
 delete > remove
+
+npm i chalk@4.6.7

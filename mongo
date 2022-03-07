@@ -1,0 +1,32 @@
+> https://www.mongodb.com/try/download/community
+
+/// windows
+
+> inside c drive
+    > make folder by the name of 'data'
+        > inside 'data' make folder by the name of 'db'
+
+> c:\data\db
+
+>>>>>>First Need to start mongo server (27017)
+> open cmd
+    > go inside path(bin folder)
+        > c:\program file\mongodb\server\5.4\bin
+         > type 'mongod'  (this will start mongodb server) (dont not close this)
+        
+> open new cmd
+    > go inside path(bin folder)
+        > c:\program file\mongodb\server\5.4\bin
+            > mongo (console to test query)
+
+
+
+// mac/linux
+> open terminal (root)
+> mkdir data/db
+
+> open terminal
+    > mongod --dbpath data/db  (this will start mongodb server) (dont not close this)
+
+> open new terminal
+    > mongo

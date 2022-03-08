@@ -30,3 +30,85 @@
 
 > open new terminal
     > mongo
+////////////////////
+
+Sno | Hindi | English |
+1   |  80   |         |
+2   |       | 80      |
+3   |  90   |         |
+
+[
+    {
+        sno:1,
+        hindi:80
+    },
+     {
+        sno:2,
+        English:80
+    },
+    {
+        sno:3,
+        hindi:90
+    }
+]
+
+////////////////////////////////
+SQl          NoSql
+Database     Database
+Table        Collection
+Row          document
+
+Select       find
+Insert       insert
+delete       remove
+Update       update
+
+////////////////////////////////
+> to See all database
+# show dbs
+
+> go inside any database
+# use databaseName
+
+> to see all Collections
+# show collections
+
+> to see data inside collections
+# db.collectionName.find()
+
+> to create new database
+# use databaseName
+
+> insert data (create collections)
+db.user.insert({name:'John',class:'Ui',phone:767867687})
+
+db.user.insert({name:'Nikita',class:'React',phone:9678678778})
+
+db.user.insert({_id:1, name:'Preety',class:'AWS',phone:785675667})
+
+db.user.insert({
+                    name:'Amit',
+                    class:'GoLang',
+                    phone:785675667,
+                    address:[
+                        {office:'Address of office'},
+                        {home:'Address of home'}
+                    ]
+            })
+
+/////////
+_id > primary key, always unique value
+
+12byte
+(random number) 5bytes
+(series) 3 bytes
+(timestamp) 5 bytes
+
+////////find with condition///////
+
+
+db.products.find({"product_name": "Washing Machine"})
+
+db.products.find({"category_id": 1, "product_name": "Iron"})
+
+db.products.find({"mealTypes.mealtype_name": 'Breakfast'})

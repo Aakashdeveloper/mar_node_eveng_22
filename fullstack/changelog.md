@@ -1,4 +1,8 @@
-#03/03/2022 Aakash TicketNumber-0003  v1.0.3
+#09/03/2022 Aakash TicketNumber-0004  v1.0.4
+> Connected with mongodb
+> Added category route
+
+#05/03/2022 Aakash TicketNumber-0003  v1.0.3
 > Separate routes in routing file
 > Added Ejs to the index
 

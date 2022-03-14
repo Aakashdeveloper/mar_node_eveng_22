@@ -19,8 +19,8 @@ NPM
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
-////////////////////
 Redis  > 6379
+////////////////////
 redisWithMongo
 ImageUpload
 Node-Es6(.babel)
@@ -143,3 +143,10 @@ https://api.openweathermap.org/data/2.5/forecast/daily?q=Amsterdam&mode=json&uni
 
 /////////////
 download Redis > https://github.com/dmajkic/redis/downloads
+
+//////
+KEYS *
+set keyname value 
+get keyname 
+del keyname
+FLUSHALL

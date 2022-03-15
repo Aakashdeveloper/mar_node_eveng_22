@@ -20,12 +20,13 @@ Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
 Redis  > 6379
-////////////////////
 redisWithMongo
+////////////////////
 ImageUpload
 Node-Es6(.babel)
 
 MongoDb Basic >27017  (local/cloud)
+
 Api with NodeJS(Rest)>1
 Swagger
 Testing
@@ -150,3 +151,12 @@ set keyname value
 get keyname 
 del keyname
 FLUSHALL
+
+
+function add(a,b){
+    return a+b
+}
+
+add
+
+const add = (a,b) => { return a+b }

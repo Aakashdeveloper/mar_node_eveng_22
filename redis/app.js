@@ -9,7 +9,6 @@ const client = redis.createClient({
     port:6379
 })
 
-
 app.get('/data',function(req,res){
     let userInput = (req.query.country).trim();
     userInput = userInput?userInput:'India'
